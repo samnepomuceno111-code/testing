@@ -1,0 +1,43 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #F7F3EB;
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  color: white;
+  background-color: #A3C9D9;
+  margin-bottom: 15px;
+}
+.btn-outline-secondary {
+  border-color: white;
+  color: white;
+}
+.btn-outline-secondary:hover {
+  background-color: #6A9BA6;
+  border-color: #6A9BA6;
+}
+
+footer {
+  margin-top: 24px;
+  background-color: #A3C9D9;
+}
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+footer nav a {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+footer p {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding-bottom: 12px;
+}
